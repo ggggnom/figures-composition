@@ -1,0 +1,181 @@
+@import "reset.css";
+body {
+   position: relative;
+   overflow: hidden;
+}
+
+.wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.rectangle__big__green {
+  position: absolute;
+  top: 24vh;
+  left: 23vw;
+  width: 74vw;
+  height: 30vh;
+  transform: rotate(-340deg);
+  background-color: #064426;
+}
+
+.rectangle__big__yellow {
+  position: absolute;
+  top: -10vh;
+  left: 47vw;
+  width: 38vw;
+  height: 80vh;
+  transform: rotate(-10deg);
+  background-color: #FFC200;
+}
+
+.strip__big__black {
+  position: absolute;
+  top: -7vh;
+  left: 60vw;
+  width: 5.1vw;
+  height: 120vh;
+  transform: rotate(53deg);
+  background-color: #000;
+}
+.{
+  position: absolute;
+  top: 120px;
+  left: 400px;
+  width: 2
+  height:
+  transform: rotate(deg);
+  background-color: ;
+}
+
+.strip__medium__black {
+  position: absolute;
+  top: -12vh;
+  left: 62vw;
+  width: 2vw;
+  height: 86vh;
+  transform: rotate(62deg);
+  background-color: #000;
+}
+
+.strip__small__black {
+  position: absolute;
+  top: 64vh;
+  left: 44vw;
+  width: 3vw;
+  height: 31vh;
+  transform: rotate(-65deg);
+  background-color: #000;
+}
+
+.triangle__small__black {
+  position: absolute;
+  top: 8vh;
+  left: 11vw;
+  width: 0;
+  height: 0;
+  border-left: 4vw solid transparent;
+  border-right: 4vw solid transparent;
+  border-top: 18vh solid #000;
+  transform: rotate(-55deg);
+}
+
+.triangle__big__black {
+  position: absolute;
+  top: 22vh;
+  left: 11vw;
+  width: 0;
+  height: 0;
+  border-left: 3.5vw solid transparent;
+  border-right: 3.5vw solid transparent;
+  border-top: 59vh solid #000;
+  transform: rotate(-32deg);
+}
+
+.triangle__small__red {
+  position: absolute;
+  top: 74vh;
+  left: 67vw;
+  width: 0;
+  height: 0;
+  border-left: 11vw solid transparent;
+  border-right: 11vw solid transparent;
+  border-top: 11vh solid #FF3C00;
+  transform: rotate(-200deg);
+}
+
+.strip__fat__black {
+  position: absolute;
+  top: 78vh;
+  left: 78vw;
+  width: 9vw;
+  height: 8vh;
+  transform: rotate(50deg);
+  background-color: #000;
+}
+
+.square__yellow {
+  position: absolute;
+  top: 68vh;
+  left: 6vw;
+  width: 12vw;
+  height: 20vh;
+  transform: rotate(28deg);
+  background-color: #FFC200;
+}
+
+.rectangle__red.one {
+  position: absolute;
+  top: 26vh;
+  left: 12vw;
+  width: 18vw;
+  height: 2vh;
+  transform: rotate(-17deg);
+  background-color: #FF3C00;
+}
+
+.rectangle__red.two {
+  position: absolute;
+  top: 43vh;
+  left: 3vw;
+  width: 15vw;
+  height: 4.3vh;
+  transform: rotate(-31deg);
+  background-color: #FF3C00;
+}
+
+
+.rectangle__red.three {
+  position: absolute;
+  top: 51vh;
+  left: 14vw;
+  width: 12vw;
+  height: 3vh;
+  transform: rotate(12deg);
+  background-color: #FF3C00;
+}
+
+.rectangle__red.four {
+  position: absolute;
+  top: 70vh;
+  left: 16vw;
+  width: 8vw;
+  height: 2vh;
+  transform: rotate(-26deg);
+  background-color: #FF3C00;
+}
+
+#pushOnMe {
+  position: fixed;
+  left: 89vw;
+  top: 82vh;
+  background-color: white;
+  width: 13vh;
+  height: 13vh;
+  border-radius: 50%;
+  border-color: #000;
+  color: black;
+  font-size: 4vh;
+  border-width: 0.8vh;
+  padding: 0.5vh 1vh;
+}
