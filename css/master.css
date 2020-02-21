@@ -167,18 +167,3 @@ body {
   100% {
     opacity: 0
   }
-
-/*#pushOnMe {
-  position: fixed;
-  left: 89vw;
-  top: 82vh;
-  background-color: white;
-  width: 13vh;
-  height: 13vh;
-  border-radius: 50%;
-  border-color: #000;
-  color: black;
-  font-size: 4vh;
-  border-width: 0.8vh;
-  padding: 0.5vh 1vh;
-}
