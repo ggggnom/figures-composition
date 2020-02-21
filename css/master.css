@@ -9,8 +9,10 @@ body {
   width: 100vw;
   height: 100vh;
 }
-.rectangle__big__green {
+.wrapper div {
   position: absolute;
+}
+.rectangle__big__green {
   top: 24vh;
   left: 23vw;
   width: 74vw;
@@ -20,7 +22,6 @@ body {
 }
 
 .rectangle__big__yellow {
-  position: absolute;
   top: -10vh;
   left: 47vw;
   width: 38vw;
@@ -30,7 +31,6 @@ body {
 }
 
 .strip.big__black {
-  position: absolute;
   top: -7vh;
   left: 60vw;
   width: 5.1vw;
@@ -40,7 +40,6 @@ body {
 }
 
 .strip.medium__black {
-  position: absolute;
   top: -12vh;
   left: 62vw;
   width: 2vw;
@@ -50,7 +49,6 @@ body {
 }
 
 .strip.small__black {
-  position: absolute;
   top: 64vh;
   left: 44vw;
   width: 3vw;
@@ -60,7 +58,6 @@ body {
 }
 
 .triangle__small__black {
-  position: absolute;
   top: 8vh;
   left: 11vw;
   width: 0;
@@ -69,10 +66,11 @@ body {
   border-right: 4vw solid transparent;
   border-top: 18vh solid #000;
   transform: rotate(-55deg);
+  animation: blink 1s ease-in;
+  animation-iteration-count: 10;
 }
 
 .triangle__big__black {
-  position: absolute;
   top: 22vh;
   left: 11vw;
   width: 0;
@@ -84,7 +82,6 @@ body {
 }
 
 .triangle__small__red {
-  position: absolute;
   top: 74vh;
   left: 67vw;
   width: 0;
@@ -93,10 +90,10 @@ body {
   border-right: 11vw solid transparent;
   border-top: 11vh solid #FF3C00;
   transform: rotate(-200deg);
-}
+  }
 
+}
 .strip__fat__black {
-  position: absolute;
   top: 78vh;
   left: 78vw;
   width: 9vw;
@@ -106,7 +103,6 @@ body {
 }
 
 .square__yellow {
-  position: absolute;
   top: 68vh;
   left: 6vw;
   width: 12vw;
@@ -115,46 +111,62 @@ body {
   background-color: #FFC200;
 }
 
-.rectangle__red.one {
-  position: absolute;
+.one {
   top: 26vh;
   left: 12vw;
   width: 18vw;
   height: 2vh;
   transform: rotate(-17deg);
+}
+
+.rectangle__red {
   background-color: #FF3C00;
 }
 
-.rectangle__red.two {
-  position: absolute;
+.two {
   top: 43vh;
   left: 3vw;
   width: 15vw;
   height: 4.3vh;
   transform: rotate(-31deg);
-  background-color: #FF3C00;
 }
 
 
-.rectangle__red.three {
-  position: absolute;
+.three {
   top: 51vh;
   left: 14vw;
   width: 12vw;
   height: 3vh;
   transform: rotate(12deg);
-  background-color: #FF3C00;
 }
 
-.rectangle__red.four {
-  position: absolute;
+.four {
   top: 70vh;
   left: 16vw;
   width: 8vw;
   height: 2vh;
   transform: rotate(-26deg);
-  background-color: #FF3C00;
 }
+
+@keyframes blink {
+  0% {
+    opacity: 1
+  }
+  20% {
+    opacity: 0
+  }
+  40% {
+    opacity: 1
+  }
+  60% {
+    opacity: 0
+  }
+  80% {
+    opacity: 1
+  }
+  100% {
+    opacity: 0
+  }
 
 /*#pushOnMe {
   position: fixed;
